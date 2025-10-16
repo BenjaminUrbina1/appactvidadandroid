@@ -11,7 +11,7 @@ Versión de Android/AGP: 36
 
 # Indents implicitos utilizados:
 
-1-Enviar sms
+1-Enviar sms✨📩
 
 
 
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/7e5d9eb5-7d3f-4ef9-b728-c117ae334c03
 En el menú principal, se debe presionar el botón 'Enviar SMS'. En la siguiente vista, se deberá ingresar el número de la persona que recibirá el mensaje y luego escribir el mensaje en sí. Al presionar el botón de enviar, se abrirá automáticamente la app de mensajería, donde podrás enviar el SMS escrito en la vista anterior
 
 
-2-ver contactos
+2-ver contactos✨📱
 
 
 
@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/6f29af57-d56a-4559-9a28-8de8eb1ffda9
 Para ver los contactos, en el menú principal se debe presionar el botón de 'Contactos'. En esta vista, se podrán ver los contactos y agregar un número. Al presionar cualquiera de las dos opciones, serás dirigido a la aplicación donde están guardados los números. Dependiendo de la opción que hayas elegido, se abrirá el listado de contactos o se mostrará la sección para agregar nuevos números.
 
 
-3-eniar correo
+3-enviar correo 📮
 
 
 
@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/1b3206b9-39a7-4c31-8c3d-d11199c723b4
 Para enviar un correo, en el menú principal se debe presionar la opción 'Enviar correo'. Dentro de la vista, se deberá ingresar el nombre del destinatario, el asunto y el mensaje. Al presionar el botón de enviar, se abrirá automáticamente la aplicación de correos.
 
 
-4-abrir las configuraciones
+4-abrir las configuraciones 🔩
 
 
 
@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/63e1de14-ec02-4dcf-95f4-b8e410c01e76
 
 Para acceder a las configuraciones del dispositivo, en el menú principal se debe presionar el botón de 'Configuraciones'. Aquí tendrás tres opciones: configuración de red, de Bluetooth y configuraciones generales. Al presionar cualquiera de los tres botones, se abrirán las configuraciones del sistema operativo.
 
-5-agregar eventos al calendario
+5-agregar eventos al calendario📆
 
 
 
