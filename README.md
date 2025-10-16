@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/22942562/README.md)
-# actividad-de-android
-actividad de programación Android
+# CONNECTIA "Conecta Personas,Datos y Tiempo"
+Programación Android
 
 
 Resumen del proyecto:
