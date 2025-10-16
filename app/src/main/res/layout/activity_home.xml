@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <!-- Barra superior -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/brand_primary"
+            app:title="Menú Principal"
+            app:titleTextColor="@android:color/white"
+            app:titleCentered="true"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenido - ELIMINAMOS EL LINEARLAYOUT ANIDADO -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <!-- PONEMOS LOS ELEMENTOS DIRECTAMENTE AQUÍ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Título -->
+            <TextView
+                android:id="@+id/tvBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_main"/>
+
+            <!-- Botones -->
+            <Button
+                android:id="@+id/btnSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Enviar sms"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnContactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Abrir Contactos"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnEnviarCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Enviar correo"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnConfiguracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="⚙️ Configuración"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnCalendario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="📅 Agregar Evento"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnCamara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="📷 Cámara"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="👤 Perfil"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/app_bg">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Contactos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/text_main"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botón: Seleccionar Contacto Existente -->
+    <Button
+        android:id="@+id/btnSeleccionarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Seleccionar Contacto"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_primary" />
+
+    <!-- Botón: Agregar Nuevo Contacto -->
+    <Button
+        android:id="@+id/btnAgregarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Agregar Contacto"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_primary" />
+
+    <!-- Información del contacto seleccionado -->
+    <TextView
+        android:id="@+id/tvInfoContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No hay contacto seleccionado"
+        android:textSize="14sp"
+        android:padding="16dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón volver -->
+    <Button
+        android:id="@+id/btnVolverContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Home"
+        android:backgroundTint="@android:color/darker_gray" />
+
+</LinearLayout>
