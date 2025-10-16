@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/22942562/README.md)
-# CONNECTIA "Conecta Personas,Datos y Tiempo"
+# CONNECTIA "Conecta Personas, Datos y Tiempo"
 Programación Android
 
 
